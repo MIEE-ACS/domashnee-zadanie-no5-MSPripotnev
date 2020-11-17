@@ -48,11 +48,9 @@ namespace Homework5
             Employee Eltsin = new Employee(12, 100000.499999F, "Boris", "Prezident", "Russia");
 
             Employee Ivan = new Employee(100, 5);
-            Employee Ivan_copy = new Employee();
-            Employee Ivan_copy_copy = new Employee();
-            Employee Ivan_copy_copy_copy = new Employee();
-            Ivan_copy.ID = 101; Ivan_copy_copy.ID = 102;
-            Ivan_copy_copy_copy.ID = 103;
+            Employee Ivan_copy = new Employee(101,  default);
+            Employee Ivan_copy_copy = new Employee(102, default);
+            Employee Ivan_copy_copy_copy = new Employee(103, default);
             Ivan_copy.Department = "Mars";
             Ivan_copy_copy.Post = "Engineer";
 

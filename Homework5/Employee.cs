@@ -17,7 +17,7 @@ namespace Homework5
             {
                 return id;
             }
-            set
+            private set
             {
                 if (value <= 0)
                     throw new Exception("Номер должен быть положительным!");
